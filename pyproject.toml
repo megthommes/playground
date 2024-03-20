@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "playground"
+version = "0.1.0"
+description = "Coding sandbox for learning and experimentation."
+authors = ["Meghan Thommes <meghan.thommes@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+matplotlib = "*"
+numpy = "*"
+pandas = "*"
+seaborn = "*"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "*"
+pytest = "*"
