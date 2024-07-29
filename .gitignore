@@ -21,6 +21,7 @@ lib/
 lib64/
 parts/
 sdist/
+static/
 var/
 wheels/
 share/python-wheels/
@@ -58,18 +59,22 @@ cover/
 *.mo
 *.pot
 
-# Django stuff:
+# Django
 *.log
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
-# Flask stuff:
+# Flask
 instance/
 .webassets-cache
 
-# Scrapy stuff:
+# Scrapy
 .scrapy
+
+# NodeJs
+node_modules/
+package-lock.json
 
 # Sphinx documentation
 docs/_build/
