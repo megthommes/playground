@@ -15,7 +15,7 @@ matplotlib = "*"
 numpy = "*"
 pandas = "*"
 seaborn = "*"
-django = "^5.0.7"
+django = "^5.0.8"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "*"
