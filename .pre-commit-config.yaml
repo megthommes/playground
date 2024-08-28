@@ -30,10 +30,6 @@ repos:
     hooks:
     -   id: pyupgrade
         args: [--py38-plus]
--   repo: https://github.com/hhatto/autopep8
-    rev: v2.3.1
-    hooks:
-    -   id: autopep8
     # make sure to run black *after* isort
 -   repo: https://github.com/psf/black
     rev: 24.8.0
@@ -65,7 +61,6 @@ repos:
     -   id: nbqa-isort
     -   id: nbqa-pyupgrade
         args: [--py38-plus]
-    -   id: nbqa-autopep8
     -   id: nbqa-black
     -   id: nbqa-mypy
     -   id: nbqa-flake8
