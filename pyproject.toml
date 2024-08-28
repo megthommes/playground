@@ -37,7 +37,6 @@ uvicorn     = "^0.30.5"
 
 [tool.poetry.group.test.dependencies]
 add-trailing-comma    = "^3.1.0"
-autopep8              = "^2.3.1"
 bandit                = "^1.7.9"
 black                 = "^24.8.0"
 coverage              = "^7.6.1"
